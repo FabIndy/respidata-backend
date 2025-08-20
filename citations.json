@@ -1,0 +1,42 @@
+{
+  "Standard": [
+    {
+      "text": "La réalité, c'est ce qui continue d'exister quand on cesse d'y croire.",
+      "author": "Philip K. Dick"
+    },
+    {
+      "text": "L’avenir n’est pas ce qui va arriver, mais ce que nous allons faire.",
+      "author": "Henri Bergson"
+    }
+  ],
+  "Sportif": [
+    {
+      "text": "La douleur n’est pas un mal en soi, mais elle le devient si l’on craint de la supporter.",
+      "author": "Sénèque"
+    },
+    {
+      "text": "Le progrès ne vaut que s’il est partagé par tous.",
+      "author": "Aristote"
+    }
+  ],
+  "Asthmatique": [
+    {
+      "text": "Ce n’est pas ce que nous vivons, mais comment nous le pensons, qui importe.",
+      "author": "Épictète"
+    },
+    {
+      "text": "L’air du matin a des secrets à te dire. Ne reste pas endormi.",
+      "author": "Rumi"
+    }
+  ],
+  "Sportif asthmatique": [
+    {
+      "text": "Le bonheur est une idée neuve en Europe.",
+      "author": "Saint-Just"
+    },
+    {
+      "text": "Prends soin de ton corps pour que ton âme ait envie d’y rester.",
+      "author": "Gandhi"
+    }
+  ]
+}
