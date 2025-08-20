@@ -252,7 +252,7 @@ def calculate_ib(lat: float = Query(...), lon: float = Query(...), noise_level: 
         "active with asthma": "Sportif asthmatique"
     }
 
-    profile_clean = mapping.get(profile, "Standard")
+    profile_clean = mapping.get(profile, "standard")
 
     print("✅ Profil reçu :", profil_original)
     print("🛠️ Profil utilisé après normalisation :", profile_clean)
