@@ -302,12 +302,12 @@ def calculate_ib(lat: float = Query(...), lon: float = Query(...), noise_level: 
         0.075 * score_uv_
     )
 
-    if "sportif" in profile:
+    if "active" in profile:
         if score_t < 0.8:
             IB -= 0.15
             print("⚠️ Pénalité Sportif appliquée : -0.15")
 
-    if "asthmatique" in profile:
+    if "asthma" in profile:
         penalite_asthme = 0.20 * (1 - score_p)
         IB -= penalite_asthme
         print(f"⚠️ Pénalité Asthmatique appliquée : -{penalite_asthme:.2f}")
