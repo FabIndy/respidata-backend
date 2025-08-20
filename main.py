@@ -244,12 +244,14 @@ def calculate_ib(lat: float = Query(...), lon: float = Query(...), noise_level: 
     profil_original = profile
     profile = profile.strip().lower()
 
+    
     mapping = {
         "standard": "Standard",
-        "standard asthmatique": "Standard asthmatique",
-        "sportif": "Sportif",
-        "sportif asthmatique": "Sportif asthmatique"
+        "standard with asthma": "Standard asthmatique",
+        "active": "Sportif",
+        "active with asthma": "Sportif asthmatique"
     }
+
     profile_clean = mapping.get(profile, "Standard")
 
     print("✅ Profil reçu :", profil_original)
