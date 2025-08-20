@@ -16,7 +16,6 @@ Moment de la journée : {moment}
 
 Il est actuellement {heure_locale}h chez l'utilisateur.
 
-
 Ta mission :
 - Génère une synthèse unique et personnalisée (3 phrases max).
 - Utilise un ton professionnel, bienveillant, motivant, jamais culpabilisant.
@@ -29,7 +28,7 @@ Contraintes :
 - Pas de liste à puces.
 - Pas de smileys, pas de redondance.
 - Pas de banalités.
-- Langue : français
+- Langue : american english
 
 
 Niveau global de l'Indice de Bien-être : {niveau_ib}
@@ -43,7 +42,6 @@ Les recommandations doivent etre des suggestions atteignables, positives et moti
 Les recommandations doivent tenir compte du moment de la journée.
 Important : pas de redondances de mots dans la synthese.
 
-
 Fais un peu d'humour pour dedramatiser un {niveau_ib} "Défavorable".
 
 Le ton doit toujours etre chaleureux.
@@ -55,7 +53,6 @@ Utilise ce niveau comme guide principal pour le ton de ta synthèse :
 - Si "Défavorable", sois bienveillant, recentré sur des solutions douces, sans dramatiser.
 
 Les recommandations doivent etre inspirantes et rester cohérentes avec le niveau global de l'indice de Bien-être et le profil de l'utilisateur.
-
 
 IMPORTANT : termine par une citation optimiste et humaniste mais pense a ne pas repeter la meme citation ou le meme auteur si un meme utilisateur te sollicte plusieurs fois dans la meme journee. 
 
@@ -70,7 +67,4 @@ Important : ne parle pas du manque de soleil la nuit.
 
 Important : pas de repetition de nom ou d'adjectif dans la synthese.
 
-Important : ta synthese doit etre ecrite en utilisant un style litteraire inspire de l'ecrivain francais Philippe Delerme mais tu ne dois jamais ecrire que ta synthese est inspire de cet auteur.
-
-
-Génère maintenant une synthèse, adaptée à la situation et au profil de l'utilisateur.
+Génère maintenant une synthèse en american english, adaptée à la situation et au profil de l'utilisateur.
