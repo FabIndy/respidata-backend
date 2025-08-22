@@ -67,4 +67,6 @@ Important : ne parle pas du manque de soleil la nuit.
 
 Important : pas de repetition de nom ou d'adjectif dans la synthese.
 
+Important : ne parle pas d'une metrique mais du score de celle-ci pour eviter toute confusion. 
+
 Génère maintenant une synthèse en american english, adaptée à la situation et au profil de l'utilisateur.
