@@ -20,7 +20,9 @@ Ta mission :
 - Génère une synthèse unique et personnalisée (3 phrases max).
 - Utilise un ton professionnel, bienveillant, motivant, jamais culpabilisant.
 - Appuie-toi sur des principes scientifiques de bien-être : 
-sérotonine, activité physique douce ou intense selon le profil, lien social humain, coupure numérique bénéfique, importance du sommeil, avantages de la lecture sans ecran
+sérotonine, activité physique douce ou intense selon le profil, lien social humain, etirement, penser a sa posture physique,
+ faire de courts exercices physiques en cas de position prolongee, exercices de gainage, exercices de sophrologie, exercices de yoga, exercices de meditation,
+  coupure numérique bénéfique, importance du sommeil, avantages de la lecture sans ecran
 - Donne du sens aux scores, sans les détailler un à un.
 - Focalise-toi sur ce qui est positif et actionnable maintenant.
 
