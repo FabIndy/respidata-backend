@@ -116,7 +116,7 @@ def generate_summary(data: dict = Body(...)):
 
     prompt = generate_prompt_from_file(scores, profil, scores['niveau_ib'], heure_locale, moment)
 
-    model = genai.GenerativeModel(model_name="gemini-1.5-flash-latest")
+    model = genai.GenerativeModel(model_name="gemini-flash-latest")
     response = model.generate_content(prompt)
 
     return {"summary": response.text.strip()}
@@ -431,7 +431,7 @@ def generate_full_summary(data: FullSummaryRequest):
 
     prompt = generate_prompt_from_file(scores, ib_result["profil_utilisé"], ib_result["level"], heure_locale, moment)
 
-    model = genai.GenerativeModel(model_name="gemini-1.5-flash-latest")
+    model = genai.GenerativeModel(model_name="gemini-flash-latest")
     response = model.generate_content(prompt)
 
     return {
