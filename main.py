@@ -15,7 +15,7 @@ import google.generativeai as genai
 
 # Chargement des variables d'environnement
 load_dotenv()
-print("🔐 GOOGLE_API_KEY =", os.getenv("GOOGLE_API_KEY"))
+
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 app = FastAPI()
@@ -31,7 +31,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-API_KEY = "98987bce0d012f69f6c7a660be75c0b9"
+API_KEY = os.getenv("OPENWEATHER_API_KEY")
 
 with open("citations.json", "r", encoding="utf-8") as f:
     citations_data = json.load(f)
